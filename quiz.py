@@ -38,9 +38,9 @@ else:
 
 print("4.Ile dni ma zwykly rok") 
 e=input("A)366 B)365 C)355 ") 
-if e=='A' or 'a': 
+if e=='A' or e=='a': 
     print("Bledna odpowiedz ") 
-elif e=='B' or 'b': 
+elif e=='B' or e=='b': 
     print("Prawidlowa odpowiedz! Zgarniasz 1 punkt ") 
     b=b+1 
 elif e=='C' or e=='c': 
@@ -53,6 +53,50 @@ f=input("A)owca B)jelen C)losos ")
 
 if f=='A' or f=='a': 
     print("Bledna odpowiedz ") 
-elif f=='B' or f=='B': 
+elif f=='B' or f=='b': 
     print("Prawidlowa odpowiedz! Zgarniasz 1 punkt ") 
-    b=b+1
+    b=b+1 
+elif f=='C' or f=='c': 
+    print("Bledna odpowiedz ") 
+else: 
+    print("error") 
+
+print("6.Stolica Chorwacji jest: ") 
+g=input("A)Zagrzeb B)Sarajewo C)Belgrad  ") 
+if g=='A' or g=='a': 
+    print("Prawidlowa odpowiedz! Zgarniasz 1 punkt") 
+    b=b+1 
+elif g=='B' or g=='b': 
+    print("Bledna odpowiedz ") 
+elif g=='C' or g=='c': 
+    print("Bledna odpowiedz ") 
+else: 
+    print("error") 
+
+print("7.Miasto Norymberga znajduje sie w: ")  
+h=input("A)Wlochy B)Niemcy C)Francja ") 
+if h=='A' or h=='a': 
+    print("Bledna odpowiedz ") 
+elif h=='B' or h=='b': 
+    print("Prawidlowa odpowiedz! Zgarniasz 1 punkt ") 
+    b=b+1 
+elif h=='C' or h=='c': 
+    print("Bledna odpowiedz ") 
+else: 
+    print("error") 
+
+print("8.Co jest wiecej warte przeliczajac na zlotowki  ") 
+i=input("A)Rubel rosyjski B)oba maja ta sama wartosc C)Robux ") 
+if i=='A' or i=='a': 
+    print("Bledna odpowiedz ") 
+elif i=='B' or i=='b':
+    print("Bledna odpowiedz ") 
+elif i=='C' or i=='c': 
+    print("Prawidlowa odpowiedz! Zgarniasz 1 punkt ") 
+    b=b+1 
+else: 
+    print("error") 
+
+print("Liczba uzyskanych punkto to: ", b ) 
+z=b/8 * 100 
+print("Twoj wynik procentowy to: ",z, "%" ) 
