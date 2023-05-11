@@ -97,6 +97,29 @@ elif i=='C' or i=='c':
 else: 
     print("error") 
 
+print("9.Jaki jest wzor na delte ?") 
+m=input("A)b^2-4ac  B) c2-2ac  C) b^2-4bc") 
+if m=='A' or m=='a': 
+    print("Prawidlowa odpowiedz! Zgarniasz 1 punkt ") 
+    b=b+1 
+elif m=='B' or m=='b': 
+    print("Bledna odpowiedz ") 
+elif m=='C' or m=='c': 
+    print("Bledna odpowiedz ")  
+else: 
+    print("error") 
+
+print("10. Z ktorego kraju pochodzi Halland? ") 
+k=input("A)Hiszpania B)Norwegia C)Anglia ") 
+if k=='A' or k=='a': 
+    print("Bledna Odpowiedz ") 
+elif k=='B' or k=='b': 
+    print("Prawidlowa odpowiedz! Zgarniasz 1 punkt ") 
+    b=b+1 
+elif k=='C' or k=='c': 
+    print("Bledna odpowiedz ") 
+else: 
+    print("error") 
 print("Liczba uzyskanych punkto to: ", b ) 
-z=b/8 * 100 
+z=b/10 * 100 
 print("Twoj wynik procentowy to: ",z, "%" ) 
